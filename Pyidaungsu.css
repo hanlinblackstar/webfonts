@@ -7,3 +7,5 @@ font-family:'Pyidaungsu';
 src:local('Pyidaungsu'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Bold.woff') format('woff'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Bold.ttf') format('ttf');
 font-weight:bold;
 }
+
+.uniFont {font-family: "Pyidaungsu" !important;}
