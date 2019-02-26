@@ -2,5 +2,3 @@
 font-family:'Zawgyi-One';
 src:local('Zawgyi-One'), url('https://github.com/hanlinblackstar/webfonts/raw/master/zawgyi.woff') format('woff'), url('https://github.com/hanlinblackstar/webfonts/raw/master/zawgyi.ttf') format('ttf');
 }
-
-.zgFont {font-family: "Zawgyi-One" !important;}
