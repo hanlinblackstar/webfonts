@@ -1,4 +1,4 @@
 @font-face {
 font-family:'Zawgyi-One';
-src:local('Zawgyi-One'), url('https://cdn.jsdelivr.net/gh/hanlinblackstar/webfonts/zawgyi.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/hanlinblackstar/webfonts/zawgyi.ttf') format('ttf');
+src:local('Zawgyi-One'), url('https://cdn.jsdelivr.net/gh/hanlinblackstar/webfonts/zawgyi.ttf') format('ttf');
 }
