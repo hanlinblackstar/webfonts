@@ -1,0 +1,4 @@
+@font-face {
+font-family:'Zawgyi-One';
+src:local('Zawgyi-One'), url('https://github.com/hanlinblackstar/webfonts/raw/master/zawgyi.woff') format('woff'), url('https://github.com/hanlinblackstar/webfonts/raw/master/zawgyi.ttf') format('ttf');
+}
