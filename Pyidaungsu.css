@@ -1,0 +1,9 @@
+@font-face {
+font-family:'Pyidaungsu';
+src:local('Pyidaungsu'), url('https://mmwebfonts.comquas.com/fonts/Pyidaungsu-2.1_Regular.woff') format('woff'), url('https://mmwebfonts.comquas.com/fonts/Pyidaungsu-2.1_Regular.ttf') format('ttf');
+}
+@font-face {
+font-family:'Pyidaungsu';
+src:local('Pyidaungsu'), url('https://mmwebfonts.comquas.com/fonts/Pyidaungsu-2.1_Bold.woff') format('woff'), url('https://mmwebfonts.comquas.com/fonts/Pyidaungsu-2.1_Bold.ttf') format('ttf');
+font-weight:bold;
+}
