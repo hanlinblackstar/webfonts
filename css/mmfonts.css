@@ -1,15 +1,15 @@
 @font-face {
 font-family:'Zawgyi-One';
-src:local('Zawgyi-One'), url('https://hanlinblackstar.github.io/webfonts/fonts/zawgyi.woff') format('woff'), url('https://hanlinblackstar.github.io/webfonts/fonts/zawgyi.ttf') format('ttf');
+src:local('Zawgyi-One'), url('https://justsharing.github.io/webfonts/fonts/zawgyi.woff') format('woff'), url('https://justsharing.github.io/webfonts/fonts/zawgyi.ttf') format('ttf');
 }
 
 @font-face {
     font-family:'Pyidaungsu';
-    src:local('Pyidaungsu'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Regular.woff') format('woff'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Regular.ttf') format('ttf');
+    src:local('Pyidaungsu'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Regular.woff') format('woff'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Regular.ttf') format('ttf');
     }
     @font-face {
     font-family:'Pyidaungsu';
-    src:local('Pyidaungsu'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Bold.woff') format('woff'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.1_Bold.ttf') format('ttf');
+    src:local('Pyidaungsu'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Bold.woff') format('woff'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Bold.ttf') format('ttf');
     font-weight:bold;
     }    
 
