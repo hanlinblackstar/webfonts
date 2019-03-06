@@ -5,13 +5,19 @@ src:local('Zawgyi-One'), url('https://justsharing.github.io/webfonts/fonts/zawgy
 
 @font-face {
     font-family:'Pyidaungsu';
-    src:local('Pyidaungsu'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Regular.woff') format('woff'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Regular.ttf') format('ttf');
+    src:local('Pyidaungsu'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.5_Regular.ttf') format('ttf');
     }
     @font-face {
     font-family:'Pyidaungsu';
-    src:local('Pyidaungsu'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Bold.woff') format('woff'), url('https://github.com/justsharing/webfonts/raw/master/Pyidaungsu-2.1_Bold.ttf') format('ttf');
+    src:local('Pyidaungsu'), url('https://github.com/hanlinblackstar/webfonts/raw/master/Pyidaungsu-2.5_Bold.ttf') format('ttf');
     font-weight:bold;
-    }    
+    }   
+
+@font-face {
+    font-family:'Myanmar3';
+    src:local('Myanmar3'), url('https://justsharing.github.io/webfonts/fonts/Myanmar3-2018.ttf') format('ttf');
+    }
 
 .zgFont {font-family: "Zawgyi-One" !important;}
 .pyidaungsuFont {font-family: "Pyidaungsu" !important;}
+.myanmar3Font {font-family: "Myanmar3" !important;}
