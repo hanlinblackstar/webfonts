@@ -1,7 +1,6 @@
 @font-face {
 font-family:'Zawgyi-One';
 src:local('Zawgyi-One'), url('https://hanlinblackstar.github.io/webfonts/fonts/zawgyi.ttf') format('ttf');
-unicode-range: U+1000-109F;
 }
 
 * {font-family: "Zawgyi-One" !important;}
