@@ -1,6 +1,7 @@
 @font-face {
 font-family:'Zawgyi-One';
 src:local('Zawgyi-One'), url('https://justsharing.github.io/webfonts/fonts/zawgyi.woff') format('woff'), url('https://justsharing.github.io/webfonts/fonts/zawgyi.ttf') format('ttf');
+unicode-range: U+1000-109F;
 }
 
-.zgFont {font-family: "Zawgyi-One" !important;}
+* {font-family: "Zawgyi-One",Arial !important;}
