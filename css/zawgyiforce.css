@@ -4,4 +4,4 @@ src:local('Zawgyi-One'), url('https://justsharing.github.io/webfonts/fonts/zawgy
 unicode-range: U+1000-109F;
 }
 
-* {font-family: "Zawgyi-One",Arial !important;}
+.zgFont {font-family: "Zawgyi-One" !important;}
