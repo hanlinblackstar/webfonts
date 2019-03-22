@@ -246,5 +246,28 @@ function checkEmbedFont() {
 
     let embedFont = true;
 
+    const standardWidth = document.getElementById('standardStr').clientWidth;
+
+    if (deviceFont == 'zawgyi') {
+        const uniTextWidth = document.getElementById('uniStr').clientWidth;
+
+        if (standardWidth != uniTextWidth || uniTextWidth >= (standardWidth * 2)) {
+            //still in zawgyi
+            embedFont = false;
+        }
+    } else if (deviceFont == 'unicode') {
+        const zgTextWidth = document.getElementById('zgStr').clientWidth;
+
+        if (standardWidth == zgTextWidth || Math.abs(zgTextWidth - standardWidth) <= Math.floor(standardWidth / 2)) {
+            //font is still unicode
+            embedFont = false;
+        }
+    }
+
+    document.body.removeChild(document.getElementById('testStr'));
+    document.body.removeChild(document.getElementById('standardStr'));
+    document.body.removeChild(document.getElementById('zgStr'));
+    document.body.removeChild(document.getElementById('uniStr'));
+
     return embedFont;
 }
